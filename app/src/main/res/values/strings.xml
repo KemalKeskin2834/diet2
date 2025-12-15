@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Diet2</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_notifications">Notifications</string>
+
+    <string name="auth_login_title">Log in</string>
+    <string name="auth_login_action">Log in</string>
+    <string name="auth_register_title">Create account</string>
+    <string name="auth_register_action">Create account</string>
+    <string name="auth_reset_title">Reset password</string>
+    <string name="auth_reset_action">Reset password</string>
+    <string name="auth_forgot_password">Forgot password?</string>
+    <string name="auth_go_register">Create account</string>
+    <string name="auth_back_to_login">Back to login</string>
+    <string name="auth_request_code">Request activation code</string>
+
+    <string name="field_first_name">First name</string>
+    <string name="field_last_name">Last name</string>
+    <string name="field_email">Email</string>
+    <string name="field_password">Password</string>
+    <string name="field_activation_code">Activation code</string>
+    <string name="field_new_password">New password</string>
+    <string name="field_confirm_password">Confirm password</string>
+
+    <string name="error_required">Required</string>
+    <string name="error_email_invalid">Enter a valid email</string>
+    <string name="error_password_invalid">Password must be at least 8 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_code_expired">Activation code expired (request a new one)</string>
+    <string name="error_code_invalid">Enter the 6-digit activation code</string>
+
+    <string name="reset_code_expires_in">Activation code expires in %1$s</string>
+
+    <string name="auth_login_demo">Login (demo)</string>
+    <string name="auth_register_demo">Account created (demo)</string>
+    <string name="auth_reset_code_demo">Activation code requested (demo)</string>
+    <string name="auth_reset_done_demo">Password reset (demo)</string>
+
+    <string name="home_today_title">Today</string>
+    <string name="home_today_subtitle">Daily nutrition snapshot</string>
+    <string name="home_total_calories_label">Total calories</string>
+    <string name="home_total_calories_value">1,820</string>
+    <string name="home_total_calories_unit">kcal</string>
+    <string name="home_set_goal">Set daily goal</string>
+    <string name="home_macro_chart_title">Macros</string>
+    <string name="home_macro_protein">Protein</string>
+    <string name="home_macro_carbs">Carbs</string>
+    <string name="home_macro_fat">Fat</string>
+    <string name="home_macro_protein_value">120g</string>
+    <string name="home_macro_carbs_value">210g</string>
+    <string name="home_macro_fat_value">60g</string>
+    <string name="home_disclaimer_placeholder">Placeholder values only</string>
+
+    <string name="food_entry_title">Food entry</string>
+    <string name="food_entry_add_row">Add</string>
+    <string name="food_entry_food_name_hint">Food name</string>
+    <string name="food_entry_amount_hint">Amount</string>
+    <string name="food_entry_weight_type_hint">Weight type</string>
+    <string name="food_entry_cooking_method_hint">Cooking method</string>
+    <string name="food_entry_details_title">Food details</string>
+    <string name="food_entry_details_mock_note">Charts and values are mock</string>
+    <string name="food_entry_details_close">Close</string>
+    <string name="food_entry_details_calories">Calories</string>
+    <string name="food_entry_details_macros">Macros</string>
+
+    <string name="camera_flow_title">Camera-based food</string>
+    <string name="camera_flow_subtitle">Choose an image source (UI only)</string>
+    <string name="camera_flow_take_photo">Use camera</string>
+    <string name="camera_flow_pick_gallery">Pick from gallery</string>
+    <string name="camera_flow_cancel">Cancel</string>
+    <string name="camera_flow_save">Save</string>
+    <string name="camera_flow_edit">Edit overlay</string>
+    <string name="camera_flow_image_preview">Selected image preview</string>
+    <string name="camera_flow_overlay_placeholder">Tap “Edit overlay” to add notes (mock)</string>
+    <string name="camera_flow_edit_title">Edit overlay</string>
+    <string name="camera_flow_overlay_hint">Overlay label</string>
+    <string name="camera_flow_edit_mock_note">This is a transparent, editable UI overlay. No AI calculation is implemented yet.</string>
+    <string name="camera_flow_open_from_home">Scan food with camera</string>
+
+    <string name="calc_title">Daily calorie calculator</string>
+    <string name="calc_subtitle">Enter your details to preview a recommended target (mock)</string>
+    <string name="calc_height_hint">Height (cm)</string>
+    <string name="calc_weight_hint">Weight (kg)</string>
+    <string name="calc_age_hint">Age</string>
+    <string name="calc_gender_hint">Gender</string>
+    <string name="calc_activity_hint">Activity level</string>
+    <string name="calc_goal_hint">Goal type</string>
+    <string name="calc_preview">Preview results</string>
+    <string name="calc_back">Back</string>
+
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_other">Other</string>
+
+    <string name="activity_sedentary">Sedentary</string>
+    <string name="activity_light">Lightly active</string>
+    <string name="activity_moderate">Moderately active</string>
+    <string name="activity_very">Very active</string>
+
+    <string name="goal_lose">Lose weight</string>
+    <string name="goal_maintain">Maintain</string>
+    <string name="goal_gain">Gain weight</string>
+
+    <string name="calc_results_title">Results (placeholder)</string>
+    <string name="calc_result_bmr">BMR</string>
+    <string name="calc_result_maintenance">Maintenance calories</string>
+    <string name="calc_result_target">Target calories</string>
+    <string name="calc_results_note">These values are placeholders. Calculation logic will be added later.</string>
+    <string name="calc_result_bmr_value">1,680 kcal/day</string>
+    <string name="calc_result_maintenance_value">2,260 kcal/day</string>
+    <string name="calc_result_target_value">2,000 kcal/day</string>
+    <string name="calc_preview_mock_toast">Preview updated (mock)</string>
+
+    <string name="bmi_open">BMI calculator</string>
+    <string name="bmi_title">BMI calculator</string>
+    <string name="bmi_subtitle">Enter height and weight to calculate BMI</string>
+    <string name="bmi_height_hint">Height (cm)</string>
+    <string name="bmi_weight_hint">Weight (kg)</string>
+    <string name="bmi_calculate">Calculate BMI</string>
+    <string name="bmi_results_title">Result</string>
+    <string name="bmi_category_underweight">Underweight</string>
+    <string name="bmi_category_normal">Normal</string>
+    <string name="bmi_category_overweight">Overweight</string>
+    <string name="bmi_category_obese">Obese</string>
+    <string name="bmi_error_invalid_number">Enter valid numbers</string>
+    <string name="bmi_error_positive">Values must be greater than 0</string>
+
+    <string name="water_title">Water reminders</string>
+    <string name="water_subtitle">Local notifications (no backend)</string>
+    <string name="water_enable">Enable reminders</string>
+    <string name="water_interval_label">Interval</string>
+    <string name="water_interval_hint">Choose interval</string>
+    <string name="water_interval_15m">Every 15 minutes</string>
+    <string name="water_interval_30m">Every 30 minutes</string>
+    <string name="water_interval_60m">Every 60 minutes</string>
+    <string name="water_interval_120m">Every 2 hours</string>
+    <string name="water_saved">Water reminder saved</string>
+    <string name="water_notification_title">Time to drink water</string>
+    <string name="water_notification_text">Stay hydrated—take a few sips.</string>
+    <string name="water_permission_needed">Allow notifications to enable reminders</string>
+
+    <string name="charts_title">Charts</string>
+    <string name="charts_subtitle">Daily / weekly / monthly (mock data)</string>
+    <string name="charts_pick_date">Pick date</string>
+    <string name="charts_selected_date">Selected: %1$s</string>
+    <string name="charts_mode_daily">Daily</string>
+    <string name="charts_mode_weekly">Weekly</string>
+    <string name="charts_mode_monthly">Monthly</string>
+    <string name="charts_mock_summary">Summary values are placeholders.</string>
+    <string name="charts_registration_not_set">Registration date not set; using today.</string>
+
+    <string name="nav_profile">Profile</string>
+
+    <string name="onboarding_title">Welcome</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_done">Done</string>
+    <string name="onboarding_title_1">Track your nutrition</string>
+    <string name="onboarding_body_1">Log meals, water, and daily goals with a clean workflow.</string>
+    <string name="onboarding_title_2">See your progress</string>
+    <string name="onboarding_body_2">Daily, weekly, and monthly charts help you stay consistent.</string>
+    <string name="onboarding_title_3">Stay on track</string>
+    <string name="onboarding_body_3">Get reminders and quick tools like BMI and calorie previews.</string>
+
+    <string name="profile_title">Profile</string>
+    <string name="profile_photo">Profile photo</string>
+    <string name="profile_pick_photo">Pick photo</string>
+    <string name="profile_height_hint">Height (cm)</string>
+    <string name="profile_weight_hint">Weight (kg)</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_saved">Profile saved</string>
+    <string name="profile_security">Security</string>
+    <string name="profile_change_password">Change password</string>
+    <string name="profile_current_password">Current password</string>
+    <string name="profile_new_password">New password</string>
+    <string name="profile_confirm_password">Confirm password</string>
+    <string name="profile_password_changed_mock">Password changed (demo)</string>
+    <string name="profile_language">Language</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_tr">TR</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SemiCircleMacroChartView">
+        <attr name="strokeWidth" format="dimension" />
+
+        <attr name="proteinFraction" format="float" />
+        <attr name="carbsFraction" format="float" />
+        <attr name="fatFraction" format="float" />
+
+        <attr name="baseColor" format="color" />
+        <attr name="proteinColor" format="color" />
+        <attr name="carbsColor" format="color" />
+        <attr name="fatColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="BarChartPlaceholderView">
+        <attr name="barCount" format="integer" />
+        <attr name="barColor" format="color" />
+    </declare-styleable>
+
+</resources>

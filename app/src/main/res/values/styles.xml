@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Reserved for non-theme styles. -->
+
+    <style name="ThemeOverlay.Diet2.TransparentDialog" parent="ThemeOverlay.Material3.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.55</item>
+    </style>
+</resources>
