@@ -16,4 +16,9 @@
         android:icon="@android:drawable/ic_menu_info_details"
         android:title="@string/nav_notifications" />
 
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/nav_profile" />
+
 </menu>

@@ -151,4 +151,34 @@
     <string name="charts_mode_monthly">Monthly</string>
     <string name="charts_mock_summary">Summary values are placeholders.</string>
     <string name="charts_registration_not_set">Registration date not set; using today.</string>
+
+    <string name="nav_profile">Profile</string>
+
+    <string name="onboarding_title">Welcome</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_done">Done</string>
+    <string name="onboarding_title_1">Track your nutrition</string>
+    <string name="onboarding_body_1">Log meals, water, and daily goals with a clean workflow.</string>
+    <string name="onboarding_title_2">See your progress</string>
+    <string name="onboarding_body_2">Daily, weekly, and monthly charts help you stay consistent.</string>
+    <string name="onboarding_title_3">Stay on track</string>
+    <string name="onboarding_body_3">Get reminders and quick tools like BMI and calorie previews.</string>
+
+    <string name="profile_title">Profile</string>
+    <string name="profile_photo">Profile photo</string>
+    <string name="profile_pick_photo">Pick photo</string>
+    <string name="profile_height_hint">Height (cm)</string>
+    <string name="profile_weight_hint">Weight (kg)</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_saved">Profile saved</string>
+    <string name="profile_security">Security</string>
+    <string name="profile_change_password">Change password</string>
+    <string name="profile_current_password">Current password</string>
+    <string name="profile_new_password">New password</string>
+    <string name="profile_confirm_password">Confirm password</string>
+    <string name="profile_password_changed_mock">Password changed (demo)</string>
+    <string name="profile_language">Language</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_tr">TR</string>
 </resources>

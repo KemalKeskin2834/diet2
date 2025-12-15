@@ -26,7 +26,8 @@ public class MainActivity extends AppCompatActivity {
             boolean showBottomNav =
                     destination.getId() == R.id.homeFragment
                             || destination.getId() == R.id.dashboardFragment
-                            || destination.getId() == R.id.notificationsFragment;
+                            || destination.getId() == R.id.notificationsFragment
+                            || destination.getId() == R.id.profileFragment;
             bottomNav.setVisibility(showBottomNav ? View.VISIBLE : View.GONE);
         });
     }
