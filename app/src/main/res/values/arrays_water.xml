@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="water_reminder_interval_options">
+        <item>@string/water_interval_15m</item>
+        <item>@string/water_interval_30m</item>
+        <item>@string/water_interval_60m</item>
+        <item>@string/water_interval_120m</item>
+    </string-array>
+</resources>

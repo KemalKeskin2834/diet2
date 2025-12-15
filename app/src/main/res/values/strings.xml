@@ -127,4 +127,18 @@
     <string name="bmi_category_obese">Obese</string>
     <string name="bmi_error_invalid_number">Enter valid numbers</string>
     <string name="bmi_error_positive">Values must be greater than 0</string>
+
+    <string name="water_title">Water reminders</string>
+    <string name="water_subtitle">Local notifications (no backend)</string>
+    <string name="water_enable">Enable reminders</string>
+    <string name="water_interval_label">Interval</string>
+    <string name="water_interval_hint">Choose interval</string>
+    <string name="water_interval_15m">Every 15 minutes</string>
+    <string name="water_interval_30m">Every 30 minutes</string>
+    <string name="water_interval_60m">Every 60 minutes</string>
+    <string name="water_interval_120m">Every 2 hours</string>
+    <string name="water_saved">Water reminder saved</string>
+    <string name="water_notification_title">Time to drink water</string>
+    <string name="water_notification_text">Stay hydrated—take a few sips.</string>
+    <string name="water_permission_needed">Allow notifications to enable reminders</string>
 </resources>
