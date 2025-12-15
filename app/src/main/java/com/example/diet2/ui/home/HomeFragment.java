@@ -76,6 +76,11 @@ public class HomeFragment extends Fragment {
                         .navigate(com.example.diet2.R.id.action_home_to_cameraSelection)
         );
 
+        binding.btnSetGoal.setOnClickListener(v ->
+                androidx.navigation.fragment.NavHostFragment.findNavController(this)
+                        .navigate(com.example.diet2.R.id.action_home_to_dailyCalorieCalculator)
+        );
+
         binding.btnAddFoodRow.setOnClickListener(v -> {
             FoodEntryItem newRow = new FoodEntryItem(nextRowId++);
             newRow.setFoodName("New food");
