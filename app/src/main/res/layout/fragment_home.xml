@@ -280,10 +280,57 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/cardCalories" />
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardFoodEntry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_glass_card"
+            android:padding="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnSetGoal">
+
+            <TextView
+                android:id="@+id/txtFoodEntryTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/food_entry_title"
+                android:textColor="#FFFFFF"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                app:layout_constraintEnd_toStartOf="@id/btnAddFoodRow"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAddFoodRow"
+                style="@style/Widget.Material3.Button.FilledTonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_entry_add_row"
+                app:icon="@drawable/ic_add_24"
+                app:iconTint="#FFFFFFFF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/txtFoodEntryTitle" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerFoodRows"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:nestedScrollingEnabled="false"
+                android:overScrollMode="never"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtFoodEntryTitle"
+                tools:listitem="@layout/item_food_entry_row" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
         <View
             android:layout_width="0dp"
             android:layout_height="24dp"
-            app:layout_constraintTop_toBottomOf="@id/btnSetGoal"
+            app:layout_constraintTop_toBottomOf="@id/cardFoodEntry"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weight_type_options">
+        <item>g</item>
+        <item>oz</item>
+        <item>serving</item>
+    </string-array>
+
+    <string-array name="cooking_method_options">
+        <item>Raw</item>
+        <item>Boiled</item>
+        <item>Grilled</item>
+        <item>Baked</item>
+        <item>Fried</item>
+    </string-array>
+</resources>

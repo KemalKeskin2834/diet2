@@ -53,4 +53,16 @@
     <string name="home_macro_carbs_value">210g</string>
     <string name="home_macro_fat_value">60g</string>
     <string name="home_disclaimer_placeholder">Placeholder values only</string>
+
+    <string name="food_entry_title">Food entry</string>
+    <string name="food_entry_add_row">Add</string>
+    <string name="food_entry_food_name_hint">Food name</string>
+    <string name="food_entry_amount_hint">Amount</string>
+    <string name="food_entry_weight_type_hint">Weight type</string>
+    <string name="food_entry_cooking_method_hint">Cooking method</string>
+    <string name="food_entry_details_title">Food details</string>
+    <string name="food_entry_details_mock_note">Charts and values are mock</string>
+    <string name="food_entry_details_close">Close</string>
+    <string name="food_entry_details_calories">Calories</string>
+    <string name="food_entry_details_macros">Macros</string>
 </resources>
