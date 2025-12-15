@@ -5,4 +5,37 @@
     <string name="nav_home">Home</string>
     <string name="nav_dashboard">Dashboard</string>
     <string name="nav_notifications">Notifications</string>
+
+    <string name="auth_login_title">Log in</string>
+    <string name="auth_login_action">Log in</string>
+    <string name="auth_register_title">Create account</string>
+    <string name="auth_register_action">Create account</string>
+    <string name="auth_reset_title">Reset password</string>
+    <string name="auth_reset_action">Reset password</string>
+    <string name="auth_forgot_password">Forgot password?</string>
+    <string name="auth_go_register">Create account</string>
+    <string name="auth_back_to_login">Back to login</string>
+    <string name="auth_request_code">Request activation code</string>
+
+    <string name="field_first_name">First name</string>
+    <string name="field_last_name">Last name</string>
+    <string name="field_email">Email</string>
+    <string name="field_password">Password</string>
+    <string name="field_activation_code">Activation code</string>
+    <string name="field_new_password">New password</string>
+    <string name="field_confirm_password">Confirm password</string>
+
+    <string name="error_required">Required</string>
+    <string name="error_email_invalid">Enter a valid email</string>
+    <string name="error_password_invalid">Password must be at least 8 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_code_expired">Activation code expired (request a new one)</string>
+    <string name="error_code_invalid">Enter the 6-digit activation code</string>
+
+    <string name="reset_code_expires_in">Activation code expires in %1$s</string>
+
+    <string name="auth_login_demo">Login (demo)</string>
+    <string name="auth_register_demo">Account created (demo)</string>
+    <string name="auth_reset_code_demo">Activation code requested (demo)</string>
+    <string name="auth_reset_done_demo">Password reset (demo)</string>
 </resources>

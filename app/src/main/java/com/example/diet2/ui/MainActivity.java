@@ -1,6 +1,7 @@
 package com.example.diet2.ui;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -20,5 +21,13 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNav = findViewById(R.id.bottom_nav);
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupWithNavController(bottomNav, navController);
+
+        navController.addOnDestinationChangedListener((controller, destination, arguments) -> {
+            boolean showBottomNav =
+                    destination.getId() == R.id.homeFragment
+                            || destination.getId() == R.id.dashboardFragment
+                            || destination.getId() == R.id.notificationsFragment;
+            bottomNav.setVisibility(showBottomNav ? View.VISIBLE : View.GONE);
+        });
     }
 }
