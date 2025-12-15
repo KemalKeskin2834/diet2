@@ -62,6 +62,9 @@ public class DailyCalorieCalculatorFragment extends Fragment {
         binding.inputGoal.setText(getString(R.string.goal_maintain), false);
 
         binding.btnBack.setOnClickListener(v -> NavHostFragment.findNavController(this).navigateUp());
+        binding.btnOpenBmi.setOnClickListener(v ->
+                NavHostFragment.findNavController(this).navigate(R.id.action_dailyCalorie_to_bmi)
+        );
 
         binding.btnPreview.setOnClickListener(v -> {
             clearErrors();

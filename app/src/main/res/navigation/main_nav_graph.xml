@@ -64,7 +64,16 @@
     <fragment
         android:id="@+id/dailyCalorieCalculatorFragment"
         android:name="com.example.diet2.ui.calculator.DailyCalorieCalculatorFragment"
-        android:label="@string/calc_title" />
+        android:label="@string/calc_title">
+        <action
+            android:id="@+id/action_dailyCalorie_to_bmi"
+            app:destination="@id/bmiCalculatorFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bmiCalculatorFragment"
+        android:name="com.example.diet2.ui.calculator.BmiCalculatorFragment"
+        android:label="@string/bmi_title" />
 
     <fragment
         android:id="@+id/cameraSelectionFragment"

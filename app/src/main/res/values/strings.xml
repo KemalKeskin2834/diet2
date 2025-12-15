@@ -113,4 +113,18 @@
     <string name="calc_result_maintenance_value">2,260 kcal/day</string>
     <string name="calc_result_target_value">2,000 kcal/day</string>
     <string name="calc_preview_mock_toast">Preview updated (mock)</string>
+
+    <string name="bmi_open">BMI calculator</string>
+    <string name="bmi_title">BMI calculator</string>
+    <string name="bmi_subtitle">Enter height and weight to calculate BMI</string>
+    <string name="bmi_height_hint">Height (cm)</string>
+    <string name="bmi_weight_hint">Weight (kg)</string>
+    <string name="bmi_calculate">Calculate BMI</string>
+    <string name="bmi_results_title">Result</string>
+    <string name="bmi_category_underweight">Underweight</string>
+    <string name="bmi_category_normal">Normal</string>
+    <string name="bmi_category_overweight">Overweight</string>
+    <string name="bmi_category_obese">Obese</string>
+    <string name="bmi_error_invalid_number">Enter valid numbers</string>
+    <string name="bmi_error_positive">Values must be greater than 0</string>
 </resources>
