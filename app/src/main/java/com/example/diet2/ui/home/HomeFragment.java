@@ -71,6 +71,11 @@ public class HomeFragment extends Fragment {
         binding.recyclerFoodRows.setLayoutManager(new LinearLayoutManager(requireContext()));
         binding.recyclerFoodRows.setAdapter(adapter);
 
+        binding.btnScanCamera.setOnClickListener(v ->
+                androidx.navigation.fragment.NavHostFragment.findNavController(this)
+                        .navigate(com.example.diet2.R.id.action_home_to_cameraSelection)
+        );
+
         binding.btnAddFoodRow.setOnClickListener(v -> {
             FoodEntryItem newRow = new FoodEntryItem(nextRowId++);
             newRow.setFoodName("New food");

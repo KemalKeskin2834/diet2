@@ -65,4 +65,18 @@
     <string name="food_entry_details_close">Close</string>
     <string name="food_entry_details_calories">Calories</string>
     <string name="food_entry_details_macros">Macros</string>
+
+    <string name="camera_flow_title">Camera-based food</string>
+    <string name="camera_flow_subtitle">Choose an image source (UI only)</string>
+    <string name="camera_flow_take_photo">Use camera</string>
+    <string name="camera_flow_pick_gallery">Pick from gallery</string>
+    <string name="camera_flow_cancel">Cancel</string>
+    <string name="camera_flow_save">Save</string>
+    <string name="camera_flow_edit">Edit overlay</string>
+    <string name="camera_flow_image_preview">Selected image preview</string>
+    <string name="camera_flow_overlay_placeholder">Tap “Edit overlay” to add notes (mock)</string>
+    <string name="camera_flow_edit_title">Edit overlay</string>
+    <string name="camera_flow_overlay_hint">Overlay label</string>
+    <string name="camera_flow_edit_mock_note">This is a transparent, editable UI overlay. No AI calculation is implemented yet.</string>
+    <string name="camera_flow_open_from_home">Scan food with camera</string>
 </resources>

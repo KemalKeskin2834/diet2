@@ -53,7 +53,24 @@
         <action
             android:id="@+id/action_home_to_notifications"
             app:destination="@id/notificationsFragment" />
+        <action
+            android:id="@+id/action_home_to_cameraSelection"
+            app:destination="@id/cameraSelectionFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/cameraSelectionFragment"
+        android:name="com.example.diet2.ui.camera.CameraSelectionFragment"
+        android:label="@string/camera_flow_title">
+        <action
+            android:id="@+id/action_cameraSelection_to_cameraPreview"
+            app:destination="@id/cameraPreviewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cameraPreviewFragment"
+        android:name="com.example.diet2.ui.camera.CameraPreviewFragment"
+        android:label="@string/camera_flow_image_preview" />
 
     <fragment
         android:id="@+id/dashboardFragment"

@@ -313,6 +313,19 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/txtFoodEntryTitle" />
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnScanCamera"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/camera_flow_open_from_home"
+                android:textColor="#FFFFFFFF"
+                app:icon="@drawable/ic_camera_24"
+                app:iconTint="#FFFFFFFF"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txtFoodEntryTitle" />
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/recyclerFoodRows"
                 android:layout_width="0dp"
@@ -322,7 +335,7 @@
                 android:overScrollMode="never"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/txtFoodEntryTitle"
+                app:layout_constraintTop_toBottomOf="@id/btnScanCamera"
                 tools:listitem="@layout/item_food_entry_row" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
