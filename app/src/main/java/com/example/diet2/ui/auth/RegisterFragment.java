@@ -15,6 +15,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.diet2.R;
+import com.example.diet2.data.preferences.UserPrefs;
 import com.example.diet2.databinding.FragmentRegisterBinding;
 
 public class RegisterFragment extends Fragment {
@@ -71,6 +72,7 @@ public class RegisterFragment extends Fragment {
             if (!ok) return;
 
             // UI-only placeholder (no backend)
+            UserPrefs.setRegistrationEpochMs(requireContext(), System.currentTimeMillis());
             Toast.makeText(requireContext(), R.string.auth_register_demo, Toast.LENGTH_SHORT).show();
             navController.navigate(R.id.action_register_to_home);
         });

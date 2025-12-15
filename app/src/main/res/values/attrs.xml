@@ -14,4 +14,9 @@
         <attr name="fatColor" format="color" />
     </declare-styleable>
 
+    <declare-styleable name="BarChartPlaceholderView">
+        <attr name="barCount" format="integer" />
+        <attr name="barColor" format="color" />
+    </declare-styleable>
+
 </resources>

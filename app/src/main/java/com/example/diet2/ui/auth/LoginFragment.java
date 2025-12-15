@@ -15,6 +15,7 @@ import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.diet2.R;
+import com.example.diet2.data.preferences.UserPrefs;
 import com.example.diet2.databinding.FragmentLoginBinding;
 
 public class LoginFragment extends Fragment {
@@ -59,6 +60,7 @@ public class LoginFragment extends Fragment {
             if (!ok) return;
 
             // UI-only placeholder (no backend)
+            UserPrefs.setRegistrationEpochMsIfAbsent(requireContext(), System.currentTimeMillis());
             Toast.makeText(requireContext(), R.string.auth_login_demo, Toast.LENGTH_SHORT).show();
             navController.navigate(R.id.action_login_to_home);
         });

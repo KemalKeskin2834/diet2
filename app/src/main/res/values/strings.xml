@@ -141,4 +141,14 @@
     <string name="water_notification_title">Time to drink water</string>
     <string name="water_notification_text">Stay hydrated—take a few sips.</string>
     <string name="water_permission_needed">Allow notifications to enable reminders</string>
+
+    <string name="charts_title">Charts</string>
+    <string name="charts_subtitle">Daily / weekly / monthly (mock data)</string>
+    <string name="charts_pick_date">Pick date</string>
+    <string name="charts_selected_date">Selected: %1$s</string>
+    <string name="charts_mode_daily">Daily</string>
+    <string name="charts_mode_weekly">Weekly</string>
+    <string name="charts_mode_monthly">Monthly</string>
+    <string name="charts_mock_summary">Summary values are placeholders.</string>
+    <string name="charts_registration_not_set">Registration date not set; using today.</string>
 </resources>
