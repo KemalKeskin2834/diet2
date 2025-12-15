@@ -38,4 +38,19 @@
     <string name="auth_register_demo">Account created (demo)</string>
     <string name="auth_reset_code_demo">Activation code requested (demo)</string>
     <string name="auth_reset_done_demo">Password reset (demo)</string>
+
+    <string name="home_today_title">Today</string>
+    <string name="home_today_subtitle">Daily nutrition snapshot</string>
+    <string name="home_total_calories_label">Total calories</string>
+    <string name="home_total_calories_value">1,820</string>
+    <string name="home_total_calories_unit">kcal</string>
+    <string name="home_set_goal">Set daily goal</string>
+    <string name="home_macro_chart_title">Macros</string>
+    <string name="home_macro_protein">Protein</string>
+    <string name="home_macro_carbs">Carbs</string>
+    <string name="home_macro_fat">Fat</string>
+    <string name="home_macro_protein_value">120g</string>
+    <string name="home_macro_carbs_value">210g</string>
+    <string name="home_macro_fat_value">60g</string>
+    <string name="home_disclaimer_placeholder">Placeholder values only</string>
 </resources>
